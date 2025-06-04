@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cfm
+data:
+  HTTP_PORT: "8080"
+  index.html: |
+    <html>
+    <body>
+      <h1>HW Markin AI</h1>
+    </body>
+    </html>
